@@ -1,0 +1,26 @@
+p{
+	margin: 0px;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.yellow{
+	background-color: #FFFF00;
+}
+.red{
+	background-color: #ED2251;
+}
+.blue{
+	background-color: #3A81BA;
+}
+.borde{
+	width:600px;
+	border: 2px solid black;
+}
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+.clearfix:after {
+	clear:both;
+}
